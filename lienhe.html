@@ -1,0 +1,145 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Cửa hàng Thu Trân - Mobiles</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- Font-awesome 4.7: https://fontawesome.com/v4.7/icons/ -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- CKEditor 4 -->
+    <script src="https://cdn.ckeditor.com/4.17.1/standard/ckeditor.js"></script>
+
+    <style>
+        .card-footer {
+            border: none;
+            padding-top: 0;
+        }
+
+        .card {
+            box-shadow: 5px 9px #666
+        }
+
+        .card-title {
+            text-align: left;
+        }
+
+        .card-img-top {
+            padding-top: 10px;
+        }
+
+        .imgPhone {
+            height: 210px;
+        }
+
+        .tieuDe {
+            font-weight: 400;
+            border-radius: 4px;
+        }
+
+        .inputForm {
+            border: none;
+        }
+    </style>
+</head>
+
+<body style="font-size: 18px">
+    <!-- header -->
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-12 col-md-2 col-xl-2 align-self-center">
+                <img src="images/PET.png" class="img-fluid ml-2" alt="">
+            </div>
+
+            <div class="col-12 col-md-10 col-xl-10 text-center">
+                <h1 class="text-primary mb-0">Cửa hàng Thu Trân</h1>
+                <p class="text-secondary font-italic">─ Phục vụ Quí Khách 24/7 <br>
+                    ─<i class="fa fa-home ml-2 mr-2" aria-hidden="true"></i>: 137E Nguyễn Chí Thanh P4 Quận 5 TP Hồ Chí
+                    Minh <br>
+                    ─<i class="fa fa-envelope-o ml-2 mr-2" aria-hidden="true"></i>: admin@thutran.com -<i
+                        class="fa fa-phone ml-1" aria-hidden="true"></i> : <span class="text-primary">08 777 6666</span>
+                </p>
+            </div>
+        </div>
+    </div>
+    <!-- button -->
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-12 col-md-12 col-xl-12">
+                <button class="btn btn-success btn-sm">Đồng ý</button>
+                <button class="btn btn-danger btn-sm">Bỏ qua</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- content -->
+    <div class="container-fluid pl-3 pr-1 mt-1">
+        <h4 class="tieuDe text-center text-danger border border-danger mb-0 pb-2">LIÊN HỆ VỚI CHÚNG TÔI</h4>
+        <div class="row">
+            <!-- left -->
+            <div class="col-12 col-md-6 col-xl-6 pt-0 pr-3 pl-3 border-right">
+                <form>
+                    <div class="form-group mb-2">
+                        <label for="name" class="font-weight-bold mb-0">Họ tên</label>
+                        <input type="text" id="name"
+                            class="form-control border-top-0 border-left-0 border-right-0 border-danger"
+                            placeholder="Nhập họ tên">
+                    </div>
+                    <div class="form-group mb-2">
+                        <label for="email" class="font-weight-bold mb-0">Email</label>
+                        <input type="email" id="email"
+                            class="form-control border-top-0 border-left-0 border-right-0 border-danger"
+                            placeholder="Nhập Email">
+                    </div>
+                    <div class="form-group mb-2">
+                        <label for="tieude" class="font-weight-bold mb-0">Tiêu đề</label>
+                        <input type="text" id="tieude"
+                            class="form-control border-top-0 border-left-0 border-right-0 border-danger"
+                            placeholder="Nhập Tiêu đề">
+                    </div>
+                    <div class="form-group mb-1">
+                        <label for="noidung" class="font-weight-bold mb-1">Nội dung</label>
+                        <textarea name="editor1" id="noidung"></textarea>
+                        <script>
+                            CKEDITOR.replace('editor1');
+                        </script>
+                    </div>
+                </form>
+            </div>
+            <!-- right -->
+            <div class="col-12 col-md-6 col-xl-6 pt-1 pl-3 ">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3919.6808276546576!2d106.66449981458886!3d10.759063192333297!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752ee53a91b957%3A0x394068fd61e4fbeb!2zMTM3RSBOZ3V54buFbiBDaMOtIFRoYW5oLCBQaMaw4budbmcgOSwgUXXhuq1uIDUsIFRow6BuaCBwaOG7kSBI4buTIENow60gTWluaCwgVmnhu4d0IE5hbQ!5e0!3m2!1svi!2s!4v1642783892942!5m2!1svi!2s"
+                    width="100%" height="560" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="container-fluid">
+        <i class="row mt-2">
+            <div class="bg-dark text-white col-12 col-md-12 col-xl-12 text-center p-3"
+                style="font-style: normal; font-size: 13px;">
+                &copy; 2021 Designer Lập trình viên javaScript</div>
+        </i>
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
